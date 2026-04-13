@@ -1,0 +1,9 @@
+[tool.robotpy]
+robotpy_version = "2026.2.1.1"
+
+requires = [
+    "robotpy-commands-v2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
