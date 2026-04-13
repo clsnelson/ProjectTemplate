@@ -11,6 +11,9 @@ class StateSubsystem(Subsystem):
         self._name = name
         self._state = initial_state
 
+    def periodic(self) -> None:
+        """Override in subclasses to apply ``_state`` to hardware or sim."""
+
     def set_desired_state(self, desired_state: int) -> bool:
         if desired_state == self._state:
             return False

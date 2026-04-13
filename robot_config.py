@@ -19,11 +19,13 @@ def has_subsystem(subsystem_name: str) -> bool:
         "drivetrain",
         "vision",
         "example",
+        "companion",
     }
 
     practice_subsystems = {
         "drivetrain",
         "example",
+        # Practice bot may omit companion to teach optional superstructure wiring.
     }
 
     if currentRobot == Robot.COMP:

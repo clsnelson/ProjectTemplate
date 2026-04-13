@@ -10,7 +10,7 @@
 
 ## Key folders
 
-- `subsystems/` - subsystem logic and IO abstraction packages
+- `subsystems/` - subsystem logic, IO abstraction packages, and `superstructure.py`
 - `tests/` - pyfrc/pytest tests
 - `docs/` - onboarding, architecture, and process docs
 

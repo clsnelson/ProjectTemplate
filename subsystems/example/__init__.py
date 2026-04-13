@@ -17,6 +17,10 @@ class ExampleSubsystem(StateSubsystem):
     def __init__(self) -> None:
         super().__init__("Example", self.SubsystemState.IDLE)
 
+    def periodic(self) -> None:
+        """Students: apply ``get_state()`` to TalonFX, sim, etc."""
+        super().periodic()
+
     def run_example_command(self):
         return cmd.runEnd(
             lambda: self.set_desired_state(self.SubsystemState.ACTIVE),

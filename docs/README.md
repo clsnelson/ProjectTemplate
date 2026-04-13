@@ -18,3 +18,9 @@ Use this template docs set as your starting point for every season.
 ## Core references
 
 - [core/repo-structure.md](core/repo-structure.md)
+- [core/controller-bindings.md](core/controller-bindings.md)
+
+## Subsystems and superstructure
+
+- [subsystems/implementing-subsystems.md](subsystems/implementing-subsystems.md)
+- [subsystems/superstructure.md](subsystems/superstructure.md)

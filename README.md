@@ -6,6 +6,7 @@ This repository is a season-start foundation for FRC teams using RobotPy and com
 
 - A clean `robot.py` + `robot_container.py` structure.
 - A reusable subsystem + IO abstraction pattern.
+- A **superstructure** that coordinates multiple mechanisms via shared `Goal`s (see `subsystems/superstructure.py`).
 - Starter `constants.py`, `robot_config.py`, and `util.py`.
 - Basic testing entry point in `tests/`.
 - Student-friendly docs with onboarding and yearly kickoff checklists.
@@ -32,3 +33,5 @@ This repository is a season-start foundation for FRC teams using RobotPy and com
 - `docs/getting-started/new-season-checklist.md` - kickoff workflow
 - `docs/guides/student-onboarding.md` - 4-week student onboarding model
 - `docs/guides/r303-compliance-checklist.md` - software reuse compliance process
+- `docs/subsystems/superstructure.md` - goals and coordination
+- `docs/subsystems/implementing-subsystems.md` - subsystem + IO + superstructure wiring

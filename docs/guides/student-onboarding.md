@@ -14,6 +14,7 @@ This guide helps teams onboard students with different programming backgrounds.
 
 - Implement one subsystem using the IO pattern.
 - Add basic state transitions and command factory methods.
+- Add a **superstructure goal** that sets your subsystem together with another mechanism.
 - Add one unit-style test or sim validation checklist.
 
 ### Track C - Advanced (Week 3-4)
